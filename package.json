@@ -15,5 +15,13 @@
     "stream",
     "bytes"
   ],
-  "dependencies": {}
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mathiasvr/chop-stream.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mathiasvr/chop-stream/issues"
+  },
+  "homepage": "https://github.com/mathiasvr/chop-stream#readme"
 }
