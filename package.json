@@ -1,0 +1,19 @@
+{
+  "name": "chop-stream",
+  "version": "0.0.1",
+  "description": "Chop a data stream into fixed size buffer chunks",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mathias Rasmussen <mathiasvr@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "chop",
+    "block",
+    "chunk",
+    "stream",
+    "bytes"
+  ],
+  "dependencies": {}
+}
