@@ -42,3 +42,25 @@ ChopStream is a node [Transform stream](https://nodejs.org/api/stream.html#strea
 `size`: size of output chunks. Can be omitted and set in options instead.
 
 `padding`: pad the end of a stream with zeroes to align the last chunk.
+
+## see also
+> Has this not been done before?
+
+Sure, here are a few examples:
+
+- [stream-chunker](https://npm.im/stream-chunker)
+- [stream-chunkify](https://npm.im/stream-chunkify)
+- [chunk-stream](https://npm.im/chunk-stream)
+- [chopped-stream](https://npm.im/chopped-stream)
+- [choppa](https://npm.im/choppa)
+- [block-stream2](https://npm.im/block-stream2)
+- [block-stream](https://npm.im/block-stream)
+- [batched-stream](https://npm.im/batched-stream)
+- [bytechunker](https://npm.im/bytechunker)
+- [pull-block](https://npm.im/pull-block)
+
+> A few? Did we really need yet another module?
+
+Probably not, but I wanted a small dependency-free ES2015 version.
+
+Why open a pull request, when you can follow the trend and add yet another module.
