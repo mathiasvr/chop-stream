@@ -8,7 +8,7 @@ Chop a data stream into fixed size buffer chunks.
 Written in ES2015.
 
 ## install
-```
+```shell
 $ npm install chop-stream
 ```
 
@@ -25,7 +25,8 @@ process.stdin.pipe(chop)
 
 ### output
 
-```
+```shell
+$ echo abcdefghijklmnopqrstuvwxyz | node example.js    
 <Buffer 61 62 63 64 65 66 67 68>
 <Buffer 69 6a 6b 6c 6d 6e 6f 70>
 <Buffer 71 72 73 74 75 76 77 78>
